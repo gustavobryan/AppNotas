@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BD4D6"
+    tools:context=".MusicasActivity">
+
+    <TextView
+        android:id="@+id/card_series"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/series"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/new_anot_series"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="300dp"
+        android:src="@drawable/desktop"
+        app:tint="@color/DimGrey" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#CAC7C7">
+
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/LightSlateGray" />
+
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="60dp"
+            android:background="@color/Grey" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="240dp"
+            android:background="@color/Grey" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="240dp"
+            android:background="@color/LightSlateGray" />
+
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="420dp"
+            android:background="@color/LightSlateGray" />
+
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="420dp"
+            android:background="@color/Grey" />
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="600dp"
+            android:background="@color/Grey" />
+
+
+        <View
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="600dp"
+            android:background="@color/LightSlateGray" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

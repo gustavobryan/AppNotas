@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/shape_app_categorias"
+    android:background="@drawable/shape_app_anotacoes"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:gravity="center"
-        android:text="Categorias"
+        android:text="Categotias"
         android:textColor="@color/white"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -30,16 +30,18 @@
     <ImageView
         android:id="@+id/imagem_logo"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:src="@drawable/logo1"
+        android:layout_height="250dp"
+        android:src="@drawable/logo12"
         app:layout_constraintBottom_toBottomOf="@+id/view"
-        app:layout_constraintTop_toBottomOf="@id/text_categorias" />
+        app:layout_constraintTop_toBottomOf="@id/text_categorias"
+        app:layout_constraintVertical_bias="0.486"
+        tools:layout_editor_absoluteX="0dp" />
 
     <LinearLayout
-        android:id="@+id/conteiner_categoria"
+        android:id="@+id/conteiner_categorias"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:background="@drawable/shape_conteiner_categorias"
+        android:background="@drawable/shape_conteiner_anotacoes"
         android:orientation="vertical"
         android:paddingHorizontal="15dp"
         android:paddingTop="15dp"
@@ -69,7 +71,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:paddingHorizontal="40dp"
-                        android:text="Anotações"
+                        android:text="@string/Anotacoes"
                         android:textColor="@color/white"
                         android:textSize="24sp"
                         android:textStyle="bold" />
@@ -88,7 +90,7 @@
                     android:layout_height="10dp" />
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/card_musicas"
+                    android:id="@+id/card_estudos"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     app:cardBackgroundColor="#749D9D9E"
@@ -100,7 +102,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:paddingHorizontal="40dp"
-                        android:text="Músicas"
+                        android:text="@string/estudos"
                         android:textColor="@color/DimGrey"
                         android:textSize="24sp"
                         android:textStyle="bold" />
@@ -109,7 +111,7 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_gravity="end"
-                        android:src="@drawable/music_"
+                        android:src="@drawable/calculate"
                         app:tint="@color/white" />
 
                 </androidx.cardview.widget.CardView>
@@ -119,7 +121,9 @@
                     android:layout_height="10dp" />
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/card_estudos"
+
+
+                    android:id="@+id/card_musicas"
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
                     app:cardBackgroundColor="#741859AE"
@@ -131,7 +135,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:paddingHorizontal="40dp"
-                        android:text="Estudos"
+                        android:text="@string/musicas"
                         android:textColor="@color/white"
                         android:textSize="24sp"
                         android:textStyle="bold" />
@@ -140,8 +144,40 @@
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:layout_gravity="end"
-                        android:src="@drawable/calculate"
+                        android:src="@drawable/music_"
                         app:tint="@color/DimGrey" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_series"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    app:cardBackgroundColor="#749D9D9E"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingHorizontal="40dp"
+                        android:text="@string/series"
+                        android:textColor="@color/DimGrey"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_gravity="end"
+                        android:src="@drawable/desktop"
+                        app:tint="@color/White" />
 
                 </androidx.cardview.widget.CardView>
 

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ApplicationNotes</string>
+    <string name="Anotacoes">Anotações</string>
+    <string name="estudos">Estudos</string>
+    <string name="musicas">Músicas</string>
+    <string name="series">Séries</string>
+    <string name="categorias">Categorias</string>
 </resources>
