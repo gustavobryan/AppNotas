@@ -13,9 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:gravity="center"
-        android:text="Categotias"
+        android:text="Categorias"
         android:textColor="@color/white"
-        android:textSize="28sp"
+        android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
 
